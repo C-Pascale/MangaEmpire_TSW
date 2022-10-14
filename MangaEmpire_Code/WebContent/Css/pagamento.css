@@ -1,0 +1,400 @@
+@charset "ISO-8859-1";
+
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+
+.page{
+    display: inline;
+    flex-wrap: wrap;
+}
+    
+body{
+	
+	overflow-x:hidden;
+	overflow-y: auto;
+	background-color: #4f4f4f;
+	
+}
+
+.gruop{
+	
+	display: inline;
+	margin-bottom: 50%;
+	
+}
+.page{
+	
+	display:flex;
+	flex-wrap:nowrap;	
+
+}
+
+.carrello{
+	max-width: 1000px;
+	min-width: 500px;
+	width: 100%;
+	height:auto;
+	margin: 0;
+	padding: 0%;
+	overflow-y: hidden;
+	padding:1%;
+	color: #ffab00;
+    display:flex;
+	border: solid black;
+	border-radius: 0 10px 10px 10px ;
+	background-color: white;
+	overflow-x:scroll;
+}
+
+h2{
+	font-size:400%;
+	color:#ffab00;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+	
+}
+
+
+
+.prodottoCart{
+	display: flex;	
+	
+}
+
+.infoprodotto{
+	
+	display: inline;
+	flex-wrap: wrap;
+	
+	
+}
+
+.copertina{
+	
+	min-height:310px;
+  max-height:310px;
+  min-width:200px;
+  max-width:200px;
+
+	
+}
+
+
+.pulsanti{
+	min-width:10%;
+	font-size:110%;
+	color: #4f4f4f;
+	background: #ffab00;
+	box-shadow: 3.5px 8px black;
+	width:auto;
+	height:4em;
+	margin-left:7%;
+	margin-bottom:5%;
+	border-radius:10px;
+	
+}
+
+.form-input-totale{
+	
+	width: auto;
+    height: auto;
+    margin-top:0.5%;
+    margin-bottom:0;
+    
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    
+  
+    border: solid black;
+  
+	
+	border-radius:  10px 10px 0 0;
+	padding: 0.5%;
+	font-size: 200%;
+	color:#4f4f4f;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+	background-color: #ffab00;
+
+	
+	
+}
+
+
+
+
+h3{
+	  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  	  text-decoration: none;
+      color: #ffab00;
+	  margin: 0 0 0 5%;
+	  font-size: 250%;
+}
+
+
+
+.container {
+  display: flex;
+  max-width: 100%;
+  overflow-y: hidden;
+
+}
+.container:hover{
+	
+	overflow-x: hidden;
+	
+}
+.container figure {
+  margin: 1% 1% 1% 1%;
+  text-align: center;
+}
+
+.copertina:hover{
+	
+	transform: scale(1.1);
+	
+}
+
+.quantità{
+	
+	font-size: 100%;
+	border: none;
+	
+	
+}
+
+.hidden{
+	display: none;
+	border: 5% #ffab00;
+
+}
+
+
+
+form{
+	
+	background-color: #4f4f4f;
+	margin-right: 15%;
+}
+
+
+label{
+	
+	font-size:150%;
+	color: #ffab00;
+	
+	
+}
+
+.form-input{
+    width: 120%;
+    height: auto;
+    margin-top:0.5%;
+    margin-bottom:1%;
+    
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+  
+    outline: none;
+    border: solid black;
+  
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.2s linear;
+    
+}
+
+.form-input:focus{
+	
+	border: solid #ffab00;
+	
+}
+
+
+
+.cvv{
+    width: 20%;
+    height: 1%;
+    margin-top:0.5%;
+    margin-bottom:1%;
+    
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+  
+    outline: none;
+    border: solid black;
+  
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.2s linear;
+    
+}
+
+.cvv:focus{
+	
+	border: solid #ffab00;
+	
+}
+
+
+#Nome{
+	
+    display:none;
+  	margin-top:-1%;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Mese{
+	
+    display:none;
+    margin-top:-1%;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Cvv{
+	
+    display:none;
+	margin-top:-1%;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	font-size:110%;
+  	letter-spacing: 0.5px;
+  	
+}
+
+#NumC{
+	
+    display:none;
+	margin-top:-1%;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	font-size:110%;
+  	letter-spacing: 0.5px;
+}
+
+#Spedizione{
+	
+    display:none;
+	margin-top:-1%;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	font-size:110%;
+  	letter-spacing: 0.5px;
+}
+
+.pulsanti{
+	min-width:10%;
+	font-size:110%;
+	color: #4f4f4f;
+	background: #ffab00;
+	box-shadow: 3.5px 8px black;
+	width:auto;
+	height:4em;
+	margin-left:7%;
+	margin-bottom:5%;
+	border-radius:10px;
+	
+}
+.pulsanti:hover {
+    transform: translatey(3px);
+border-style: inset;
+}
+
+/* buttons hover Animation */
+.pulsanti:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+.page{
+	
+	display:flex;
+	flex-wrap:wrap;	
+
+}
+
+	
+	
+	.prodottoCart{
+	display: flex;
+	flex-wrap: wrap;	
+	
+}
+	
+.carrello{
+	
+	width:10%;
+	
+}
+
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.page{
+	
+	display:flex;
+	flex-wrap:nowrap;	
+
+}
+
+	
+	
+	.prodottoCart{
+	display: flex;
+	flex-wrap: wrap;	
+	
+}
+	
+.carrello{
+	
+	width:8%;
+	
+}
+
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+.page{
+	
+	display:flex;
+	flex-wrap:nowrap;	
+
+}
+
+	
+	
+	.prodottoCart{
+	display: flex;
+	flex-wrap: nowrap;	
+	
+}
+	
+.carrello{
+	
+	width:8%;
+	
+}
+
+
+}

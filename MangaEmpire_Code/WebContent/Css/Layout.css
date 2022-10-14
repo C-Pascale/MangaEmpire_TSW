@@ -1,0 +1,906 @@
+@charset "ISO-8859-1";
+.allbody{
+	
+	
+	overflow-y: auto;
+	
+}
+
+body{
+	
+	overflow-x:hidden;
+	overflow-y: auto;
+	
+}
+h2{
+	border-radius: 10px;
+	padding: 1% 20% 0.5% 2%;
+	font-size: 2em;
+	color:#4f4f4f;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+	background-color: #ffab00;
+	border-style: solid;
+	 margin: 10% 0 4% 0;
+}
+.category:hover {
+	  background-color: #4f4f4f;
+	  color: #ffab00;
+}
+
+.selCategory{
+		width: 100px;
+		height: 100px;
+}
+option{
+	width: 100px;
+	height: 100px;
+}
+
+.prezzi{
+	
+	font-weight: bold;
+	
+}
+
+
+.carrello{
+	
+	width: 20%;
+	margin: 0 0 0 20%;
+	
+}
+
+.carrello:hover{
+	
+	width:22%;
+	
+}
+
+.text{
+  overflow: hidden;
+  background-color: #e9e9e9;
+  margin: 2% 0 0 1%;
+  border-radius: 10px;
+  border-color: #ffab00;
+  border: 2px solid #ffab00;
+  width: 40%;
+  max-height: 100%;
+  font-size: 100%;
+
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+  cursor: grab;
+  overflow: auto;
+ 
+}
+.container:hover{
+	
+	overflow-x: scroll;
+	
+}
+.container figure {
+  margin: 1% 1% 1% 1%;
+  text-align: center;
+}
+
+
+
+.copertina:hover{
+	
+	transform: scale(1.1);
+	
+}
+#ISBN{
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Prezzo{
+	
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Autore{
+	
+    display: none;
+	background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Quantity{
+	
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Serie{
+	
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Volume{
+	
+    display:none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Descrizione{
+	
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Copertina{
+	
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+#Categoria1{
+	
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+#Categoria2{
+	
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+
+#PrezzoM{
+	
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#AutoreM{
+	
+    display: none;
+	background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#QuantityM{
+	
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#SerieM{
+	
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#VolumeM{
+	
+    display:none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#DescrizioneM{
+	
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#CopertinaM{
+	
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+#Categoria1M{
+	
+    display: none;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+.form-input{
+    width: 50%;
+    height: 20%;
+    margin-top:0.5%;
+    margin-bottom:1%;
+    
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+  
+    outline: none;
+    border: solid black;
+  
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.2s linear;
+    
+}
+
+#e-mail {width: 80%;}
+/* focus  */
+#e-mail:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+}
+.azioni{
+	
+	 height: 25%;
+  width: auto;  
+  background-color: #ffab00;
+  border: none;
+  color: #4f4f4f;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+   font-size: 35%;
+  	margin: 5% -2% 0.5% 1.8% ; 
+  	padding: 2%;
+  	border-radius: 10px;
+    opacity: 1;
+    transition: 0.2s;
+    border-style: solid;
+	font-size: 80%;
+}
+
+
+
+.conferma{
+	
+	 height: 25%;
+  width: auto;  
+  background-color: #ffab00;
+  border: none;
+  color: #4f4f4f;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+   font-size: 35%;
+  	margin: 5% -2% 0.5% 1.8% ; 
+  	padding: 1% 1% 0.5% 1.2%;
+  	border-radius: 10px;
+    opacity: 1;
+    transition: 0.2s;
+    border-style: solid;
+	font-size: 80%;
+}
+
+.conferma:hover {
+	  background-color: #4f4f4f;
+	  color: #ffab00;	
+}
+
+
+table {
+	width: 90%;
+	font-size: 150%;
+	overflow: scroll;
+}
+
+table, th, td {
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+}
+.testocatalogo{
+	
+	font-size: 200%;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  	  text-decoration: none;
+      color: #ffab00;
+	  margin: 0 0 0 0;
+}
+
+
+@media screen and (max-width: 480px) {
+  	.banner{
+	width: 100%; 
+  	max-width: 100%;
+  	height: 15%;
+ 	}
+ 	
+
+table {
+	width: 50%;
+	font-size:100%;
+	
+}
+
+
+legend{
+color: #ffab00;
+font-size: 280%
+}
+
+.category {
+  height: 15%;
+  width: 13%; 
+  background-color: #ffab00;
+  border: none;
+  color: #4f4f4f;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+   font-size: 40%;
+  	margin: 1.2% 0 0.5% 1.8% ; 
+  	padding: 1% 0 1% 0;
+  	border-radius: 10px;
+    opacity: 1;
+    transition: 0.2s;
+    border-style: solid;
+}
+
+.menu{
+	  width: 100%; 
+  	  max-width: 100%;
+	  height: 15%;
+	  margin: -3.5% 1% 1% 1%;
+}
+.category:hover {
+	  background-color: #4f4f4f;
+	  color: #ffab00;	
+}
+ .email{
+background-color: #4f4f4f;
+color: #ffab00;
+font-size: 70%
+}
+
+legend{
+color: #ffab00;
+font-size: 150%
+}
+
+
+
+
+h2{
+	font-size: 100%;
+	 text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+ 
+ 
+.copertina{
+ min-height:155px;
+  max-height:155px;
+  min-width:100px;
+  max-width:100px;
+  width:20%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  color: #ffab00;
+  font-size: 100%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+
+.boxtitoli{
+	min-width:100px;
+  max-width:20px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+}
+ 
+.boxtitoli:hover{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  text-align: left;
+}
+
+
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.2px 0 #ffab00, 0 0.2px #ffab00, 0.2px 0 #ffab00, 0 -0.2px #ffab00;
+	font-size:70%;
+	text-align: left;
+}
+
+ .testocatalogo{
+	
+	font-size: 100%;
+	}
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  	.banner{
+	width: 100%; 
+  	max-width: 100%;
+  	height: 15%;
+ 	}
+
+
+.category {
+  height: 15%;
+  width: 13%; 
+  background-color: #ffab00;
+  border: none;
+  color: #4f4f4f;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+   font-size: 65%;
+  	margin: 1.5% 0 0.5% 2.3% ; 
+  	padding: 1% 0 1% 0;
+  	border-radius: 10px;
+  	border-style: solid;
+}
+.category:hover {
+	  background-color: #4f4f4f;
+	  color: #ffab00;	
+}
+
+.menu{
+	  width: 100%; 
+  	  max-width: 100%;
+	  height: 15%;
+	  margin: -3.5% 1% 1% 1%;
+}
+ .email{
+background-color: #4f4f4f;
+color: #ffab00;
+font-size: 100%;
+}
+legend{
+color: #ffab00;
+font-size: 200%;
+}
+
+
+table {
+	width: 50%;
+	font-size:100%;
+}
+
+
+.copertina{
+   min-height:155px;
+  max-height:155px;
+  min-width:100px;
+  max-width:100px;
+  width:100%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  color: #ffab00;
+  font-size: 100%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+
+.boxtitoli{
+	min-width:100px;
+  max-width:20px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+}
+ 
+.boxtitoli:hover{
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  text-align: left;
+}
+
+
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.5px 0 #ffab00, 0 0.5px #ffab00, 0.5px 0 #ffab00, 0 -0.5px #ffab00;
+	font-size:100%;
+	text-align: left;
+}
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  	.banner{
+	width: 100%; 
+  	max-width: 100%;
+  	height: 15%;
+ 	}
+
+
+.category {
+  height: 15%;
+  width: 13%; 
+  background-color: #ffab00;
+  border: none;
+  color: #4f4f4f;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+   font-size: 80%;
+  	margin: 1.5% 0 0.5% 2.5% ; 
+  	padding: 1% 2%;
+  	border-radius: 10px;
+  	border-style: solid;
+}
+
+.menu{
+	  width: 100%; 
+  	  max-width: 100%;
+	  height: 15%;
+	  margin: -3.5% 1% 1% 1%;
+}
+ .email{
+background-color: #4f4f4f;
+color: #ffab00;
+font-size: 150%;
+}
+
+
+legend{
+color: #ffab00;
+font-size: 250%;
+}
+
+.copertina{
+  min-height:260px;
+  max-height:260px;
+  min-width:155px;
+  max-width:155px;
+  width: 100%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  color: #ffab00;
+  font-size: 160%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.titoli:hover{
+  opacity: 0.8;
+  font-size: 180%;
+}
+
+.boxtitoli{
+	min-width:155px;
+  max-width:155px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+	text-align: left;
+}
+ 
+.boxtitoli:hover{
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  
+}
+
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.5px 0 #ffab00, 0 0.5px #ffab00, 0.5px 0 #ffab00, 0 -0.5px #ffab00;
+	font-size:120%;
+	text-align: left;
+}
+
+table {
+	width: 50%;
+	font-size:100%;
+}
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  	.banner{
+	width: 100%; 
+  	max-width: 100%;
+  	height: 15%;
+ 	}
+
+
+.category {
+  height: 15%;
+  width: 13%; 
+  background-color: #ffab00;
+  border: none;
+  color: #4f4f4f;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+   font-size: 100%;
+  	margin: 1.5% 0 0.5% 2.5% ; 
+  	padding: 1% 2%;
+  	border-radius: 10px;
+  	border-style: solid;
+}
+.category:hover {
+	  background-color: #4f4f4f;
+	  color: #ffab00;	
+}
+
+.menu{
+	  width: 100%; 
+  	  max-width: 100%;
+	  height: 15%;
+	  margin: -3.5% 1% 1% 1%;
+}
+ .email{
+background-color: #4f4f4f;
+color: #ffab00;
+font-size: 180%;
+}
+
+
+legend{
+color: #ffab00;
+font-size: 280%;
+}
+
+.copertina{
+  min-height:310px;
+  max-height:310px;
+  min-width:200px;
+  max-width:200px;
+  width: 100%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  text-align: left;
+  color: #ffab00;
+  font-size: 200%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.titoli:hover{
+  opacity: 0.8;
+  font-size: 230%;
+}
+
+.boxtitoli{
+	min-width:200px;
+  max-width:200px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+}
+ 
+.boxtitoli:hover{
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  
+}
+ 
+ 
+ 
+ 
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.5px 0 #ffab00, 0 0.5px #ffab00, 0.5px 0 #ffab00, 0 -0.5px #ffab00;
+	font-size:140%;
+	text-align: left;
+}
+ 
+}
+
+
+
+
+
+@media screen and (min-width: 1201px) {
+  	.banner{
+	width: 100%; 
+  	max-width: 100%;
+  	height: 15%;
+ 	}
+
+
+.category {
+  height: 15%;
+  width: 13%; 
+  background-color: #ffab00;
+  border: none;
+  color: #4f4f4f;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+   font-size: 200%;
+  	margin: 1.5% 0 0.5% 2.5% ; 
+  	padding: 1% 2%;
+  	border-radius: 10px;
+  	border-style: solid;
+}
+.category:hover {
+	  background-color: #4f4f4f;
+	  color: #ffab00;	
+}
+
+.menu{
+	  width: 100%; 
+  	  max-width: 100%;
+	  height: 15%;
+	  margin: -3.5% 1% 1% 1%;
+}
+ .email{
+background-color: #4f4f4f;
+color: #ffab00;
+font-size: 180%;
+}
+
+
+legend{
+color: #ffab00;
+font-size: 280%;
+
+}
+.copertina{
+  min-height:460px;
+  max-height:460px;
+  min-width:300px;
+  max-width:300px;
+  width: 100%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  color: #ffab00;
+  font-size: 250%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.titoli:hover{
+  opacity: 0.8;
+  font-size: 270%;
+}
+
+.boxtitoli{
+	 min-width:300px;
+  max-width:300px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+	text-align: left;
+}
+ 
+.boxtitoli:hover{
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  
+}
+
+
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.5px 0 #ffab00, 0 0.5px #ffab00, 0.5px 0 #ffab00, 0 -0.5px #ffab00;
+	font-size:170%;
+	text-align: left;
+}
+
+}

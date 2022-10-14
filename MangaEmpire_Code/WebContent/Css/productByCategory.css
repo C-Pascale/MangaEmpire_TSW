@@ -1,0 +1,330 @@
+@charset "ISO-8859-1";
+
+body{
+	
+	overflow-x:hidden;
+	overflow-y: auto;
+	
+}
+
+h1{
+	border-radius: 10px;
+	padding: 1% 20% 0.5% 2%;
+	font-size: 2em;
+	color:#4f4f4f;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+	background-color: #ffab00;
+	border-style: solid;
+	margin: 1% 0 4% 0;	
+}
+	 
+.container {
+  display: flex;
+  max-width: 100%;
+flex-wrap:wrap;
+ 
+}
+
+.container figure {
+  margin: 1% 1% 1% 1%;
+  text-align: center;
+}
+
+
+
+.copertina:hover{
+	
+	transform: scale(1.1);
+	
+}
+.prezzi{
+	
+	font-weight: bold;
+	
+}
+@media screen and (max-width: 480px) {
+	
+.copertina{
+ min-height:155px;
+  max-height:155px;
+  min-width:100px;
+  max-width:100px;
+  width:20%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  color: #ffab00;
+  font-size: 100%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+
+.boxtitoli{
+	min-width:100px;
+  max-width:20px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+}
+ 
+.boxtitoli:hover{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  text-align: left;
+}
+
+
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.2px 0 #ffab00, 0 0.2px #ffab00, 0.2px 0 #ffab00, 0 -0.2px #ffab00;
+	font-size:70%;
+	text-align: left;
+}
+	
+	
+	
+	
+	
+	
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	
+.copertina{
+   min-height:155px;
+  max-height:155px;
+  min-width:100px;
+  max-width:100px;
+  width:100%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  color: #ffab00;
+  font-size: 100%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+
+.boxtitoli{
+	min-width:100px;
+  max-width:20px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+}
+ 
+.boxtitoli:hover{
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  text-align: left;
+}
+
+
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.5px 0 #ffab00, 0 0.5px #ffab00, 0.5px 0 #ffab00, 0 -0.5px #ffab00;
+	font-size:100%;
+	text-align: left;
+}
+
+
+}
+	
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	
+.copertina{
+  min-height:260px;
+  max-height:260px;
+  min-width:155px;
+  max-width:155px;
+  width: 100%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  color: #ffab00;
+  font-size: 160%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.titoli:hover{
+  opacity: 0.8;
+  font-size: 180%;
+}
+
+.boxtitoli{
+	min-width:155px;
+  max-width:155px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+	text-align: left;
+}
+ 
+.boxtitoli:hover{
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  
+}
+
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.5px 0 #ffab00, 0 0.5px #ffab00, 0.5px 0 #ffab00, 0 -0.5px #ffab00;
+	font-size:120%;
+	text-align: left;
+}
+	
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+.copertina{
+  min-height:310px;
+  max-height:310px;
+  min-width:200px;
+  max-width:200px;
+  width: 100%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  text-align: left;
+  color: #ffab00;
+  font-size: 200%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.titoli:hover{
+  opacity: 0.8;
+  font-size: 230%;
+}
+
+.boxtitoli{
+	min-width:200px;
+  max-width:200px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+}
+ 
+.boxtitoli:hover{
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  
+}
+ 
+ 
+ 
+ 
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.5px 0 #ffab00, 0 0.5px #ffab00, 0.5px 0 #ffab00, 0 -0.5px #ffab00;
+	font-size:140%;
+	text-align: left;
+}
+ 
+}
+
+
+@media screen and (min-width: 1201px) {
+.copertina{
+  min-height:345px;
+  max-height:345px;
+  min-width:225px;
+  max-width:225px;
+  width: 100%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  color: #ffab00;
+  font-size: 250%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.titoli:hover{
+  opacity: 0.8;
+  font-size: 270%;
+}
+
+.boxtitoli{
+	 min-width:300px;
+  max-width:300px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+	text-align: left;
+}
+ 
+.boxtitoli:hover{
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  
+}
+
+
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.5px 0 #ffab00, 0 0.5px #ffab00, 0.5px 0 #ffab00, 0 -0.5px #ffab00;
+	font-size:170%;
+	text-align: left;
+}
+
+
+}

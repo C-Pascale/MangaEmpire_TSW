@@ -1,0 +1,618 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+/* End Fonts */
+/* Start Global rules */
+
+
+
+
+#Email{
+    display:none;
+    margin-top:-6%;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#mostra{
+   
+
+    width:7%;
+	background-color:transparent;
+	border: none;	
+  	
+}
+
+#eye{
+	width:5%;
+	margin-top:-6%;
+	display: none;  	
+}
+#mostraConferma{
+   
+
+    width:7%;
+	background-color:transparent;
+	border: none;	
+  	
+}
+#eyeConferma{
+	width:5%;
+	margin-top:-6%;
+	display: none;  	
+}
+
+
+#Psw{
+	
+    display:none;
+    margin-top:-3%;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+#PswOld{
+	
+    display:none;
+    margin-top:-6%;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Conferma{
+	
+    display:none;
+    margin-top:-6%;
+	background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Nome{
+	
+    display:none;
+    margin-top:-6%;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Cognome{
+	
+    display:none;
+    margin-top:-6%;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Paese{
+	
+    display:none;
+    margin-top:-6%;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Telefono{
+	
+    display:none;
+    margin-top:-6%;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#Indirizzo{
+	
+    display:none;
+    margin-top:-6%;
+    background-color:transparent;
+  	color: red;
+  	border: none;
+  	text-shadow: -0.5px 0 red, 0 0.5px red, 0.5px 0 red, 0 -0.5px red;
+  	
+}
+
+#password{
+	
+	width:75%;
+	
+	
+}
+
+#conferma{
+	
+	width:75%;
+	
+	
+}
+
+select{
+	
+	font-size:150%;
+	border-radius:30px;
+	border:solid;
+	height:50px;
+	margin:auto auto 5% 10%;
+	
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* End Global rules */
+
+/* Start body rules */
+body {
+    background-image: url("https://i.imgur.com/fixQ36V.jpeg");
+background-attachment: fixed;
+
+
+    font-family: 'Vibur', cursive;
+/*   the main font */
+    font-family: 'Abel', sans-serif;
+opacity: .95;
+
+}
+
+
+
+.con {
+    display: -webkit-flex;
+    display: block;
+  	display: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  	width: 50%;
+    height: 100%;
+      margin: 5% auto 5% auto;
+      border-radius: 5px;
+    
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-220deg, #4f4f4f 50%, #ffab00 50%);
+    box-shadow: 5px 8px black;
+    animation: gradient 15s ease infinite;
+}
+
+
+header {
+    margin: 2% auto 2% auto;
+    text-align: center;
+    color: #ffab00;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+
+header h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    
+    
+}
+/*  A welcome message or an explanation of the login form */
+header p {
+	
+	font-size:150%;
+	letter-spacing: 0.05em;
+}
+
+
+
+/* //////////////////////////////////////////// */
+/* //////////////////////////////////////////// */
+
+
+.input-item {
+    background: #fff;
+    color: #333;
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+
+
+#eye {
+    background: #fff;
+    margin: 0 0 0 -5%;
+    
+    cursor: pointer;
+    visibility: visible;
+}
+
+
+
+/* inputs form  */
+.form-input{
+    width: 90%;
+    height: 20%;
+  
+  	margin-left: 2%;
+    margin-top: 10%;
+    padding: 2%;
+    
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+  
+    outline: none;
+    border: solid black;
+  
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.2s linear;
+    
+}
+.form-input:focus{
+	
+	
+	border-color: #ffab00;
+}
+#e-mail {width: 90%;}
+/* focus  */
+#e-mail:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+}
+
+
+/* Submits */
+.submits {
+    width: 48%;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+
+.log-in{
+	width:85;
+	font-size:110%;
+	display: inline-block;
+    background: transparent;
+  
+    width: 280px;
+    height: 50px;
+  
+
+   
+    border-radius: 5px;
+    
+    outline: none;
+  	box-shadow: 3.5px 8px black;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+
+
+
+.frgt-pass {
+	border: solid;
+	background: transparent;
+	box-shadow: 3.5px 8px black;
+	display: inline-block;
+    
+  
+    width: 280px;
+    height: 50px;
+  
+
+    
+    border-radius: 5px;
+    
+    outline: none;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+	
+}
+	
+
+/*     Sign Up button  */
+.sign-up {
+	
+	color: #ffab00;
+	background: #4f4f4f;
+	box-shadow: 3.5px 8px black;
+	font-size:110%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	display: inline-block;
+   
+  
+    width: 280px;
+    height: 50px;
+  
+
+    border-radius: 5px;
+    
+    outline: none;
+    border: none;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+	}
+	
+.pulsanti{
+	font-size:120%;
+	color: #ffab00;
+	background: #4f4f4f;
+	box-shadow: 3.5px 8px black;
+	width:40%;
+	height:4em;
+	margin-left:7%;
+	margin-bottom:5%;
+	border-radius:10px;
+	
+}
+.pulsanti:hover {
+    transform: translatey(3px);
+border-style: inset;
+}
+
+/* buttons hover Animation */
+.pulsanti:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+/* buttons hover */
+.log-in:hover {
+    transform: translatey(3px);
+border-style: inset;
+}
+
+/* buttons hover Animation */
+.log-in:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+.frgt-pass:hover {
+    transform: translatey(3px);
+border-style: inset;
+}
+
+/* buttons hover Animation */
+.frgt-pass:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+.sign-up:hover {
+    transform: translatey(3px);
+border-style: inset;
+}
+
+/* buttons hover Animation */
+.sign-up:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+@media screen and (max-width: 480px) {
+.form-input{
+    width: 90%;
+    margin: 0 auto 5% 5%;
+    font-size:110%;
+    }
+  
+     
+	.log-in{
+	width:60%;
+	margin: 2% auto -10% 5%;
+	
+}
+
+.other{
+	padding:5%;
+	
+}
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	input[class="form-input"]{
+    width: 80%;
+    height:30%;
+  margin: 0 auto 5% 10%;
+  font-size:110%;
+  
+}
+    
+	.log-in{
+	width:70%;
+	margin-left: 10%;
+	
+}
+.frgt-pass {
+	width: 40%;
+	margin: auto auto 0 5%;
+	font-size:110%;
+}
+	
+
+/*     Sign Up button  */
+.sign-up {
+	width: 40%;
+	margin: auto auto 0 5%;
+	}
+	
+#mostra{
+   
+
+    width:10%;
+	
+  	
+}
+#mostraConferma{
+   
+
+    width:10%;
+	
+  	
+}
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	
+	input[class="form-input"]{
+    width: 80%;
+    margin: 0 0 5% 5%;
+    }
+    
+   
+	.log-in{
+	width:70%;
+	margin: 5% 0 0 15%;
+	
+}
+.frgt-pass {
+	width: 40%;
+	margin: auto auto 0 5%;
+	font-size:110%;
+}
+	
+
+/*     Sign Up button  */
+.sign-up {
+	width: 40%;
+	margin: auto auto 0 5%;
+	}
+	
+.other {
+	
+	margin: 5% auto auto 5%;
+	
+}
+
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+	
+	input[class="form-input"]{
+    width: 75%;
+    margin: 0 0 5% 5%;
+    }
+    
+   
+	.log-in{
+	width:70%;
+	margin: 5% 0 0 15%;
+	
+}
+.frgt-pass {
+	width: 40%;
+	margin: 5% auto 0 5%;
+	font-size:110%;
+}
+	
+
+/*     Sign Up button  */
+.sign-up {
+	width: 40%;
+	margin: 5% auto 0 5%;
+	}
+	
+.other {
+	
+	margin: 5% auto auto 5%;
+	
+}
+
+}
+
+
+
+
+@media screen and (min-width: 1201px) {
+	
+	input[class="form-input"]{
+    width: 75%;
+    margin: 0 0 5% 5%;
+    }
+    
+   
+	.log-in{
+	width:70%;
+	margin: 0 0 0 15%;
+	font-size:170%;
+	
+}
+.frgt-pass {
+	width: 35%;
+	margin: auto 5% auto auto;
+	font-size:130%;
+}
+	
+
+/*     Sign Up button  */
+.sign-up {
+	width: 35%;
+	margin: auto 5% auto auto;
+	font-size:150%;
+	}
+
+.other {
+	
+	margin: 5% auto auto 20%;
+	
+}
+header p {
+	
+	font-size:200%;
+	
+}
+
+#mostra{
+   
+
+    width:5%;
+	
+  	
+}
+#mostraConferma{
+   
+
+    width:5%;
+	
+  	
+}
+
+}
+ 
+
+

@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+
+body{
+	overflow-x:hidden;
+	
+	
+}
+
+h2{
+	
+	text-decoration:underline;
+	
+}
+
+.informazioni{
+	
+	border:solid;
+	width:30%;
+	
+}
+div.hr-line {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    border-bottom: 1px solid #7A7A7A;
+}
+
+div.vr-line {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-left: 1px solid #7A7A7A;
+}
+
+table, th, td {
+	
+	border:1px solid #7A7A7A;
+	
+}

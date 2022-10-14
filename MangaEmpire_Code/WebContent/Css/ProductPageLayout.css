@@ -1,0 +1,302 @@
+@charset "ISO-8859-1";
+
+
+
+
+h1{
+	width:100%;
+	max-width:100%;
+	font-size: 300%;
+	overflow: hidden;
+	flex-wrap: wrap;
+	 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: none;
+  color: #ffab00;
+}
+
+h2{
+	  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  	  text-decoration: none;
+      color: #ffab00;
+	  margin: 0 0 0 5%;
+}
+
+.disponibili{
+	 text-shadow:none;
+	 font-size: 100%;
+	 color: #4f4f4f;
+	 margin: 5% 0 2% 5%;
+	 
+}
+
+h3{
+	border-radius: 10px;
+	max-height:40%;
+	min-height:20%;
+	margin: 5%;
+}
+.copertina:hover{
+	
+	transform: scale(1.2);
+
+}
+
+
+
+#categorie{
+	display: flex;
+}
+
+.page{
+	margin: 5% 5%;
+	display: flex;
+	flex-grow: 10;
+	width:100%;
+	min-height:100%;
+	max-height:100%;
+}
+
+.titolo{
+	
+	margin: 1% 0 0 10%;
+	width:100%;
+	padding: 2% 2% 2% 2%;
+	
+}
+
+
+
+.descrizione{
+	margin: -10% 0% 30% 20%;
+	min-width: 50%;
+	max-width: 80%;
+	overflow-y: hidden;
+	border: 0.5px ridge #4f4f4f;
+	border-radius: 10px;
+	text-align: left;
+	padding: 1%;
+	box-shadow: 3.5px 8px #4f4f4f;
+}
+
+
+
+@media screen and (max-width: 480px) {
+	.descrizione{
+		margin: 10% 0% 30% 10%;
+
+	
+	}
+	
+	h3{
+	border-radius: 10px;
+	max-height:40%;
+	min-height:20%;
+	overflow-y: hidden;	
+}
+
+.copertina{
+ height:auto;
+  width:200px;
+  margin: 10% 10% 10% 15%;
+	transition: 1s;
+	border: solid;
+  
+
+}
+
+.page{
+	margin: 5% 5%;
+	display:flex;
+	flex-grow:10;
+	width:100%;
+	flex-wrap:wrap;
+}
+
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	
+	
+	.descrizione{
+		margin: -5% 0% 30% 10%;
+
+	
+	}
+	
+	h3{
+	border-radius: 10px;
+	max-height:40%;
+	min-height:20%;
+	overflow-y: hidden;	
+}
+
+.copertina{
+ height:auto;
+  width:200px;
+  margin: 10% 5% 10% 15%;
+	transition: 1s;
+	border: solid;
+  
+
+}
+
+.page{
+	margin: 5% 5%;
+	display:flex;
+	flex-grow:10;
+	width:100%;
+	flex-wrap: nowrap;
+	
+}
+
+
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	
+	
+	.descrizione{
+		margin: -5% 0% 30% 10%;
+
+	
+	}
+	
+	h3{
+	border-radius: 10px;
+	max-height:40%;
+	min-height:20%;
+	overflow-y: hidden;	
+}
+
+.copertina{
+ height:auto;
+  width:250px;
+  margin: 10% 5% 10% 15%;
+	transition: 1s;
+	border: solid;
+  
+
+}
+
+.page{
+	margin: 5% 5%;
+	display:flex;
+	flex-grow:10;
+	width:100%;
+	flex-wrap: nowrap;
+	
+}
+
+
+
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+	
+	
+	.descrizione{
+		margin: -5% 0% 30% 10%;
+
+	
+	}
+	
+	h3{
+	border-radius: 10px;
+	max-height:40%;
+	min-height:20%;
+	font-size: 130%;
+}
+
+.copertina{
+ height:auto;
+  width:250px;
+  margin: 10% 5% 10% 15%;
+	transition: 1s;
+	border: solid;
+  
+
+}
+
+.page{
+	margin: 5% 5%;
+	display:flex;
+	flex-grow:10;
+	width:100%;
+	flex-wrap: nowrap;
+	
+}
+
+
+
+
+}
+
+
+@media screen and (min-width: 1201px) {
+	
+	
+	.descrizione{
+		margin: -5% 0% 30% 10%;
+
+	
+	}
+	
+	h3{
+	border-radius: 10px;
+	max-height:40%;
+	min-height:20%;
+	font-size: 150%;
+}
+
+.copertina{
+ height:auto;
+  width:350px;
+  margin: 10% 5% 10% 15%;
+	transition: 1s;
+	border: solid;
+  
+
+}
+
+.page{
+	margin: 5% 5%;
+	display:flex;
+	flex-grow:10;
+	width:100%;
+	flex-wrap: nowrap;
+	
+}
+
+h1{
+	
+	font-size: 450%;
+	
+}
+
+
+h2{
+	
+	font-size: 250%;
+	
+}
+
+.disponibili{
+	
+		font-size: 200%;
+	
+	
+}
+
+
+
+
+}
+	
+	
+	
+

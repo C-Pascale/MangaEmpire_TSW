@@ -1,0 +1,598 @@
+@charset "ISO-8859-1";
+
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+.page{
+	display:flex;
+	flex-wrap: wrap;
+	height:400px;
+	margin: -10% 0 0 -10%;
+	border: inherit;
+	
+
+}
+
+h2{
+	  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  	  text-decoration: none;
+      color: #ffab00;
+	  margin: 0 0 0 5%;
+	  font-size:150%;
+}
+
+h3{
+	  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  	  text-decoration: none;
+      color: #ffab00;
+	  margin: 0 0 0 5%;
+	  font-size: 250%;
+}
+
+.totale>h2{
+	flex-wrap: nowrap;
+	font-size:200%;
+	
+}
+
+
+.pulsanti{
+	min-width:10%;
+	font-size:110%;
+	color: #4f4f4f;
+	background: #ffab00;
+	box-shadow: 3.5px 8px black;
+	width:auto;
+	height:4em;
+	margin-left:7%;
+	margin-bottom:5%;
+	border-radius:10px;
+	cursor:pointer;
+}
+
+#cestino{
+	margin: 0% 4% 0% 90%;
+}
+
+.carrello{
+	border: 1px solid;
+	width:60%;
+	height:100%;
+	margin: 10% 0% 0% 10%;
+	padding: 0%;
+	overflow-y: scroll;
+	padding:1%;
+	color: #ffab00;
+	border: 0.5px ridge #4f4f4f;
+	border-radius: 10px;
+}
+
+
+.totale{
+	border: 2px inset;
+	width:25%;
+	height:auto;
+	margin: 10% 0 0 0 ;
+	right: 2%;
+	top: 50%;
+	padding: 1%;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  	  text-decoration: none;
+      border: 0.5px inset #4f4f4f;
+      box-shadow: 3.5px 8px #4f4f4f;
+	  
+}
+
+.CartProductsQuantity{
+	
+	-webkit-touch-callout: none; 
+    -webkit-user-select: none;
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+	
+	
+}
+
+
+.prodottoCart{
+	display:flex;	
+	-webkit-touch-callout: none; 
+    -webkit-user-select: none;
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+.infoprodotto{
+	
+	display:flex;	
+	flex-wrap:wrap;
+	
+	
+}
+
+.prodottoCart>.copertina{
+	
+	min-height:155px;
+  max-height:155px;
+  min-width:100px;
+  max-width:100px;
+  width:20%;
+  height: auto;
+
+	
+}
+
+
+
+.container {
+  display: flex;
+  max-width: 100%;
+  overflow-y: hidden;
+
+}
+.container:hover{
+	
+	overflow-x: scroll;
+	
+}
+.container figure {
+  margin: 1% 1% 1% 1%;
+  text-align: center;
+}
+
+.copertina:hover{
+	
+	transform: scale(1.1);
+	
+}
+
+.consigliati{
+	min-height : 5%;
+	max-height:5%;
+	margin: 20% 5% 2% -2%;
+	text-align: left;
+	
+}
+
+#consigliati{
+	
+	
+	margin-left: 5%;
+	
+}
+
+.spedizione{
+	
+	border-radius: 10px;
+	padding: 1% 20% 0.5% 2%;
+	font-size: 50%;
+	color:#4f4f4f;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+	background-color: #ffab00;
+	border-style: solid;
+	 margin: 10% 0 4% 0;
+	word-wrap: break-word;
+	flex-wrap:wrap;
+	
+}
+.spedizione:hover{
+	
+	transition: all 0.2s linear;
+	animation: ani9 0.4s ease-in-out infinite alternate;
+	transform: translatey(3px);
+	border-style: inset;
+	cursor: pointer;
+	
+	
+}
+
+
+
+.linkcarrello{
+	
+	color: rgba(0,0,0,0);
+	height: auto;
+	width:30%;
+	
+}
+
+	
+.linkcarrello:hover{
+	
+	
+	animation: ani9 0.4s ease-in-out infinite alternate;
+	transform: translatey(3px);
+	cursor: pointer;
+	
+	
+}
+
+
+@media screen and (max-width: 480px) {
+	
+
+.copertina{
+ min-height:155px;
+  max-height:155px;
+  min-width:100px;
+  max-width:100px;
+  width:20%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  color: #ffab00;
+  font-size: 100%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+
+.boxtitoli{
+	min-width:100px;
+  max-width:20px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+}
+ 
+.boxtitoli:hover{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  text-align: left;
+}
+
+
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.2px 0 #ffab00, 0 0.2px #ffab00, 0.2px 0 #ffab00, 0 -0.2px #ffab00;
+	font-size:70%;
+	text-align: left;
+}
+	
+	.totale{
+	margin-top:50%;
+	flex-basis: 100%;
+	width:90%;
+	}
+	
+h3{
+	font-size:150%;
+	
+	
+}
+h2{
+	font-size:200%;
+	
+	
+}
+
+.carrello{
+	
+	width:100%;
+	
+}
+
+.consigliati{
+	
+	margin-top:150%;
+	
+}	
+
+.totale>h1{
+	text-align: center;
+	font-size:200%;
+	
+}
+
+}
+	
+	
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	
+	
+	.copertina{
+   min-height:155px;
+  max-height:155px;
+  min-width:100px;
+  max-width:100px;
+  width:100%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  color: #ffab00;
+  font-size: 100%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+
+.boxtitoli{
+	min-width:100px;
+  max-width:20px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+}
+ 
+.boxtitoli:hover{
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  text-align: left;
+}
+
+
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.5px 0 #ffab00, 0 0.5px #ffab00, 0.5px 0 #ffab00, 0 -0.5px #ffab00;
+	font-size:100%;
+	text-align: left;
+}
+	
+.totale{
+	
+	margin-left:10%;
+	margin-top:20%;
+	flex-basis: 55%;
+	
+	}
+	
+.consigliati{
+	
+	margin-top:90%;
+	
+}
+	
+.carrello{
+	
+	width:100%;
+	
+}
+	
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	
+	.copertina{
+  min-height:260px;
+  max-height:260px;
+  min-width:155px;
+  max-width:155px;
+  width: 100%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  color: #ffab00;
+  font-size: 160%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.titoli:hover{
+  opacity: 0.8;
+  font-size: 180%;
+}
+
+.boxtitoli{
+	min-width:155px;
+  max-width:155px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+	text-align: left;
+}
+ 
+.boxtitoli:hover{
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  
+}
+
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.5px 0 #ffab00, 0 0.5px #ffab00, 0.5px 0 #ffab00, 0 -0.5px #ffab00;
+	font-size:120%;
+	text-align: left;
+}
+	
+	.totale{
+	
+	top:30%;
+	
+	}
+	
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+	.copertina{
+  min-height:310px;
+  max-height:310px;
+  min-width:200px;
+  max-width:200px;
+  width: 100%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  text-align: left;
+  color: #ffab00;
+  font-size: 200%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.titoli:hover{
+  opacity: 0.8;
+  font-size: 230%;
+}
+
+.boxtitoli{
+	min-width:200px;
+  max-width:200px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+}
+ 
+.boxtitoli:hover{
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  
+}
+ 
+ 
+ 
+ 
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.5px 0 #ffab00, 0 0.5px #ffab00, 0.5px 0 #ffab00, 0 -0.5px #ffab00;
+	font-size:140%;
+	text-align: left;
+}
+ 
+ .totale{
+	
+	top:30%;
+	
+	}
+ 
+}
+
+
+@media screen and (min-width: 1201px) {
+	
+	.copertina{
+  min-height:310px;
+  max-height:310px;
+  min-width:200px;
+  max-width:200px;
+  width: 100%;
+  height: auto;
+
+}
+
+ .titoli{
+  
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  text-decoration: none;
+  text-align: left;
+  color: #ffab00;
+  font-size: 200%;
+  margin: 3% 0 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.titoli:hover{
+  opacity: 0.8;
+  font-size: 230%;
+}
+
+.boxtitoli{
+	min-width:200px;
+  max-width:200px;
+  width: 20%;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+}
+ 
+.boxtitoli:hover{
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   white-space: nowrap;
+	overflow:hidden;
+  
+}
+ 
+ 
+ 
+ 
+.prezzi{
+	color: #4f4f4f;
+	text-shadow: -0.5px 0 #ffab00, 0 0.5px #ffab00, 0.5px 0 #ffab00, 0 -0.5px #ffab00;
+	font-size:140%;
+	text-align: left;
+}
+
+.totale{
+	
+	top:35%;
+	
+	}
+
+.infoprodotto>h2{
+	
+	font-size: 200%;
+	
+	
+}
+h2{
+	font-size:250%;
+	
+	
+}
+.spedizione{
+	
+	font-size:80%
+}
+	
+}
+
+
